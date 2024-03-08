@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class hasan : MonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)//colider giris
+    {
+        Debug.Log("Giriş");
+    }
+    private void OnTriggerStay(Collider other)//colider icinde
+    {
+        Debug.Log("İçinde");
+    }
+    private void OnTriggerExit(Collider other)//colider cıkıs
+    {
+        Debug.Log("Çıkış");
+    }
+}
